@@ -8,5 +8,6 @@ wheels/
 *.egg-info
 .python-version
 allure-results
+.vscode
 # Virtual environments
 .venv

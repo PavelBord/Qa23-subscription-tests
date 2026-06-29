@@ -47,7 +47,7 @@ class SubscriptionPage():
         self.promo_apply_btn.click()
 
     def get_promo_massege(self) -> str:
-        return self.promo_massage.text_content() or ""
+        return self.promo_massage.text_content()
 
     @allure.step("Заполнить данные карты")
     def fill_card(self, card_number: str, expiry: str, cvv: str) -> None:
